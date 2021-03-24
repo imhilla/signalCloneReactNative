@@ -12,8 +12,8 @@ export default function App() {
     <NavigationContainer>
       <Stack.Screen name='Login' component={LoginScreen} />
       <View style={styles.container}>
-        <Text>Lets build signal</Text>
         <StatusBar style="auto" />
+        <Text>Lets build signal</Text>
       </View>
     </NavigationContainer>
   );
